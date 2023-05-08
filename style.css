@@ -1,113 +1,103 @@
-header {
-	background: #BBBBBB;
-	padding: 20px 0;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.caixa {
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+body{
+    font-family: 'Poppins', sans-serif;
 }
 
-nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
+.cabecalho {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
 }
 
-nav li {
-	display: inline;
-	margin: 0 0 0 15px;
+.cabecalho-imagem1{
+    width: 10%;
 }
 
-nav a {
-	text-transform: uppercase;
-	color: #000000;
-	font-weight: bold;
-	font-size: 22px;
-	text-decoration: none;
+.cabecalho-imagem2{
+    width: 10%;
 }
 
-nav a:hover {
-	color: #C78C19;
-	text-decoration: underline;
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 25px 100px; 
+    font-size: 24px;
 }
 
-.produtos {
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0;
+.logoesc{
+    width: 20%;
+    border-radius: 80px;
 }
 
-.produtos li {
-	display: inline-block;
-	text-align: center;
-	width: 30%;
-	vertical-align: top;
-	margin: 0 1.5%;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	border: 2px solid #000000;
-	border-radius: 10px;
+.escola{
+    background-image: ETnCKyQ0YITbiay.jpg;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.produtos li:hover {
-	border-color: #C78C19;
+.escola-div-conteudo{
+    width: 35%;
 }
 
-.produtos li:active {
-	border-color: #088C19;	
+.escola-titulo{
+    font-size: 28px;
+    padding: 30px 0;
 }
 
-.produtos li:hover h2 {
-	font-size: 34px;
+.escola-texto1{
+    font-size: 20px;
+    padding: 10px 0;
 }
 
-.produtos h2 {
-	font-size: 30px;
-	font-weight: bold;
+.logoesc{
+	position:absolute;
+	left:80%;
+	top:15%;
 }
 
-.produto-descricao {
-	font-size: 18px;
+.imagem-prof{
+    width: 208px;
+    height: 195px;
+    border-radius: 60px;
 }
 
-.produto-preco {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
+.icones{
+    width: 24px;
+    margin: 0px 20px; 
 }
 
-footer {
-	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0;
+.prof-nome{
+    margin: 0px 40px;
 }
 
-.copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
+.prof-div{
+    text-align: center;
 }
 
-main {
-	width: 940px;
-	margin: 0 auto;
+.professores-titulo{
+    text-align: center;
+    padding: 30px 0;
 }
 
-form {
-	margin: 40px 0;
+.prof-todos{
+    display: grid;
+    grid-template-columns: 16% 17% 17% 17% 17% 16%;
 }
 
-form label {
-	display:block;
-	font-size: 20px;
-	margin: 0 0 10px;
+.professores{
+    background-image: linear-gradient(#009A04,#A7E5A9,#009A04,#A7E5A9);
+    color: white;
 }
 
-form input {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
+.rodape{
+    background-color: #000000;
+    color: white;
+    text-align: right;
+    padding: 10px 0;
 }
